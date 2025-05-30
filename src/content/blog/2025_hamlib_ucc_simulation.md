@@ -30,7 +30,7 @@ Supported problem sizes within Hamlib range from 2 to 1000 qubits.
 The Hamlib dataset was developed and published to streamline research by reducing the need for manual problem preparation, enabling robust benchmarking, and promoting reproducibility and standardization in quantum studies, all shared goals of the UCC project and Unitary Foundation.
 
 ## UCC is a community driven project
-UCC continues to collect and integrate performant and user-friendly tools for quantum compilation and compiler benchmarking. You can help by:
+The UCC team and our collaborators continue to collect and integrate performant and user-friendly tools for quantum compilation and compiler benchmarking. You can help by:
 
 * [**Creating Custom Compiler Passes**](https://ucc.readthedocs.io/en/latest/contributing.html#proposing-a-new-transpiler-pass)  
 * [**Reporting Bugs & Requesting Features**](https://github.com/unitaryfoundation/ucc/issues)  
