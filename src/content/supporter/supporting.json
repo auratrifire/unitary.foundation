@@ -28,7 +28,12 @@
     {
       "title": "Quantum Machines",
       "url": "https://www.quantum-machines.co/",
-      ::image[dhkssbxmcuqyr0yt4zcx]
-    }
+      "imageId": "dhkssbxmcuqyr0yt4zcx"
+    },
+    {
+      "title": "Riverlane",
+      "url": "https://www.riverlane.com/",
+      "imageId": "jt3w14gr9u4wfpfzlde9"
+    },
   ]
 }
