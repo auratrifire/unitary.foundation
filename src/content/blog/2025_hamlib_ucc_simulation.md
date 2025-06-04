@@ -1,8 +1,8 @@
 ---
 title: Extending UCC simulation benchmarks with Hamlib
 author: Misty Wahl
-day: 30
-month: 5
+day: 4
+month: 6
 year: 2025
 tags: 
   - open-source
@@ -22,7 +22,7 @@ The primary metric of interest for the simulation benchmarks is the error in the
 For the square Heisenberg circuits and QAOA, the chosen observable of interest is the problem Hamiltonian, while for quantum volume (QV) and quantum Fourier transform (QFT) circuits computational basis measurements on all qubits are sufficient for benchmarking purposes.
 
 ## Hamlib Hamiltonian Library
-In the case of the square Heisenberg simulation benchmarks, the UCC team was able to leveraging an existing implementation within the Hamlib (Hamiltonian Library) dataset [^1].
+In the case of the square Heisenberg simulation benchmarks, the UCC team was able to leverage an existing implementation within the Hamlib (Hamiltonian Library) dataset [^1].
 Hamlib contains a large collection of qubit-based quantum Hamiltonians to support the evaluation and development of quantum computing systems, across a diverse set of problem instances. 
 The dataset is freely and publicly available online at https://portal.nersc.gov/cfs/m888/dcamps/hamlib. 
 In addition to the Heisenberg model used for the UCC benchmarks, HamLib features models such as Fermi-Hubbard, Bose-Hubbard, various molecular structures, and optimization problems such as MaxCut and the traveling salesperson problem.
