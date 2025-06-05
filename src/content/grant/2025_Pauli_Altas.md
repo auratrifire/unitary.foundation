@@ -1,5 +1,5 @@
 ---
-name: Pauli Atlas: Pauli-Based Computation Compiler for Quantum Error Correction
+name: "Pauli Atlas: Pauli-Based Computation Compiler for Quantum Error Correction"
 year: 2025
 month: 5
 day: 28
