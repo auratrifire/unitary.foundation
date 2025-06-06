@@ -1,0 +1,39 @@
+{
+  "supporters": [
+    {
+      "title": "AWS",
+      "url": "https://aws.amazon.com/braket/",
+      "imageId": "aws_rpfxfc"
+    },
+    {
+      "title": "Pasqal",
+      "url": "https://www.pasqal.com/",
+      "imageId": "pasqal_trepre"
+    },
+    {
+      "title": "Microsoft",
+      "url": "https://www.microsoft.com",
+      "imageId": "c8gxxazff17a9owmfxkz"
+    },
+    {
+      "title": "SandboxAQ",
+      "url": "https://www.sandboxaq.com/",
+      "imageId": "crdrjgdw5jndh7ro2nfa"
+    },
+    {
+      "title": "QC Ware",
+      "url": "https://www.qcware.com/",
+      "imageId": "pisrqdbl3cgjqlpgzhah"
+    },
+    {
+      "title": "Quantum Machines",
+      "url": "https://www.quantum-machines.co/",
+      "imageId": "dhkssbxmcuqyr0yt4zcx"
+    },
+    {
+      "title": "Riverlane",
+      "url": "https://www.riverlane.com/",
+      "imageId": "jt3w14gr9u4wfpfzlde9"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+---
+import '~/styles/main.scss';
+import Container from '~/components/Ui/Container.astro';
+import Header from '~/components/Layout/Header.astro';
+import Footer from '~/components/Layout/Footer.astro';
+import FloatingSocial from '~/components/Layout/FloatingSocial.astro';
+
+interface LayoutProps {
+  title?: string;
+  contained?: boolean;
+  bodyClassName?: string;
+  metaDescription?: string;
+}
+
+export interface Props extends LayoutProps {
+  frontmatter?: LayoutProps;
+}
+
+const { title, contained, bodyClassName, metaDescription } = Astro.props.frontmatter || Astro.props;
+
+const titleSeparator = '-';
+const titleName = 'Unitary Foundation';
+
+let metaTitle = titleName;
+
+if (title) {
+  if (title === titleName) {
+    metaTitle = title;
+  } else {
+    metaTitle = `${title} ${titleSeparator} ${titleName}`;
+  }
+}
+---
+
+<html lang="en" class="overflow-x-hidden">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+    <link rel="alternate" type="application/rss+xml" title={titleName} href={`${Astro.url.origin}/posts/feed.xml`} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Space+Grotesk:wght@700&family=Space+Mono:wght@400;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>{metaTitle}</title>
+    {metaDescription && <meta name="description" content={metaDescription} />}
+  </head>
+  <body
+    class:list={[
+      !!bodyClassName && `page-${bodyClassName}`,
+      'font-manrope overflow-x-hidden overscroll-none',
+    ]}>
+    <Header />
+    <FloatingSocial />
+    <div class="min-h-[calc(100vh-200px)] nav-mobile-open:bg-gray-300">
+      <Container>
+        <slot name="page-start" />
+      </Container>
+      {
+        contained && (
+          <Container className="prose nav-mobile-open:invisible" reducedWidth>
+            <slot />
+          </Container>
+        )
+      }
+      {
+        !contained && (
+          <Container className="nav-mobile-open:invisible">
+            <slot />
+          </Container>
+        )
+      }
+      <Container>
+        <slot name="page-end" />
+      </Container>
+    </div>
+    <Footer />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || []
+
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-19932157-4")
+    </script>
+  </body>
+</html>
