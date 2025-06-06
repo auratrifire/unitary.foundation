@@ -30,6 +30,7 @@ The square Heisenberg benchmarking circuits are parameterized in the number of q
 To implement the problem Hamiltonian as the observable of interest in the simulation benchmarks, the UCC team leveraged an existing implementation within the Hamlib (Hamiltonian Library) dataset [^2]. 
 Each Hamiltonian within Hamlib is represented as a of a set of Pauli strings and coefficients, which the UCC benchmarking workflow then combines into a `qiskit.quantum_info.SparsePauliOp` object to generate the observable.
 Hamlib contains a large collection of qubit-based quantum Hamiltonians to support the evaluation and development of quantum computing systems, across a diverse set of problem instances. 
+
 The dataset is freely and publicly available online at https://portal.nersc.gov/cfs/m888/dcamps/hamlib. 
 In addition to the Heisenberg model used for the UCC benchmarks, HamLib features models such as Fermi-Hubbard, Bose-Hubbard, various molecular structures, and optimization problems such as MaxCut and the traveling salesperson problem.
 Supported problem sizes within Hamlib range from 2 to 1000 qubits.
