@@ -13,27 +13,16 @@ tags:
 
 This year, the Quantum Computing Student Association at UCLA hosted the inaugural Quantum Device Workshop! The workshop aimed to teach quantum device design to beginners and provide an enviroment for the exchange of knowledge between experts in the field. We hosted a beginner and an advanced track for the workshop and more than 400 people were present at the event, with over 100 people in-person and over 300 people online. Indeed, it was a packed house! 
 
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ::image[vlaliy0b9zz2vzoyqnym]
-      <figcaption>Quantum Device Workshop Group Photo!</figcaption>
-    </figure> 
-  </div>
-</div>
+      Quantum Device Workshop Group Photo!
+ 
 
 So what exactly occured at this workshop? Call us DJ Enzyme cuz we will be breaking it down day by day. 
 
 ## Day 1 
 The first day started off with attendees checking in and grabbing breakfast, followed by Professor Eli Levenson-Falk giving an overview and goals of the workshop. After that, the workshop was split into the two separate tracks, beginner and advanced. For the beginner track, Zlatko Minev from Google taught a two hour workshop on circuit quantum electrodynamics (cQED) and the basic principles behind designing a transmon qubit coupled to a resonator. After Zlatko's workshop, the beginner track had lunch. After lunch, Professor Devoret discussed how a superconducting qubit compares to atom based qubits. This was followed by a talk by Daniel Sank from Google who discussed how to do readout of a superconducting qubit. To cap off the day for the beginners, Professor Andreas Wallraff talked about the physics on how to couple two qubits for the purpose of preforming two qubit gates. 
-
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ![Professor Eli Levenson-Falk giving the opening talk to a packed house!](/images/2025QDW/Beg_Day1.jpeg)
-    </figure> 
-  </div>
-</div>
+
 
 For the advanced track, Daniel Sank talked about how to optimize the design of readout resonators for superconducting qubits, issues with scaling up dispersive readout, and designing alternatives for dispersive readout that could be more scalable. This was followed by a workshop session by Ofer Naaman from Google on how to use Keysight ADS to design a Snake Parametric Amplifier. After Ofer's workshop, the advanced track had lunch. After lunch, we resumed with Professor Andreas Wallraff's talk about how to implement a surface code on superconducting quantum devices. During the talk, he also showed a image of a GDS file of chip designed for surface codes and allowed the participants to ask questions about the different circuit elements on the chip, which was very useful for the audience as these images are rarely shared in actual publications. After this, Professor Devoret taught the advanced track participants about constructing Hamiltonians and Lagrangians from a circuit diagram following a second quantization framework. To cap off the day for the advanced track, Zlatko Minev did a deep dive into the backend behind PyEPR and Qiskit Metal and discussed a little bit on optimal meshing conditions for electromagnetic simulation of superconducting qubit devices. 
 
