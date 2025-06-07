@@ -1,7 +1,7 @@
 ---
 title: Inaugural Quantum Device Workshop!
 author: Quantum Computing Student Association
-day: 4
+day: 3
 month: 6
 year: 2025
 tags: 
@@ -13,8 +13,8 @@ tags:
 
 This year, the Quantum Computing Student Association at UCLA hosted the inaugural Quantum Device Workshop! The workshop aimed to teach quantum device design to beginners and provide an enviroment for the exchange of knowledge between experts in the field. We hosted a beginner and an advanced track for the workshop and more than 400 people were present at the event, with over 100 people in-person and over 300 people online. Indeed, it was a packed house! 
 
-::image[vlaliy0b9zz2vzoyqnym]
-Quantum Device Workshop Group Photo!
+  ::image[vlaliy0b9zz2vzoyqnym]
+  Quantum Device Workshop Group Photo!
  
 
 So what exactly occured at this workshop? Call us DJ Enzyme cuz we will be breaking it down day by day. 
@@ -130,6 +130,5 @@ There are a few improvements that we want to make to the workshop so that it is 
 
 Overall, it was a successful event, and we will do it again next year! We were excited to see all the enthusiasm from the community towards designing scalable quantum devices and hope people continue to be very enthusiastic to design more devices and learn more. We also hope that this workshop will bring more people to help maintain open source quantum hardware design tools and create more accessible educational content! Please join the [Discord](https://discord.gg/9yYmbDPH) for open source quantum hardware design tools and accessible quantum hardware education if you haven't already. We have already started to organize next year's iteration for the quantum device workshop, and the link to pre-register is [here](https://qdw-ucla.squarespace.com/qdw2026)!
       ![From all of the speakers and organizers, we wish you long coherence times and fast two qubit gate times in your designs! See you next year!!](/images/2025QDW/Finale.jpg)
-
 
 
