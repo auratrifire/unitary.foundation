@@ -1,5 +1,5 @@
 ---
-title: First Inaugural Quantum Device Workshop!
+title: Inaugural Quantum Device Workshop!
 author: Quantum Computing Student Association
 day: 3
 month: 6
@@ -8,6 +8,7 @@ tags:
   - open-source
   - community
   - quantum-device-design
+  - education
 ---
 
 This year, the Quantum Computing Student Association at UCLA hosted the inaugural Quantum Device Workshop! The workshop aimed to teach quantum device design to beginners and provide an enviroment for the exchange of knowledge between experts in the field. We hosted a beginner and an advanced track for the workshop and more than 400 people were present at the event, with over 100 people in-person and over 300 people online. Indeed, it was a packed house! 
@@ -29,8 +30,7 @@ The first day started off with attendees checking in and grabbing breakfast, fol
 <div style="width:100%;">
   <div style="">
     <figure>
-      ![](/images/2025QDW/Beg_Day1.jpeg)
-      <figcaption>Professor Eli Levenson-Falk giving the opening talk to a packed house!</figcaption>
+      ![Professor Eli Levenson-Falk giving the opening talk to a packed house!](/images/2025QDW/Beg_Day1.jpeg)
     </figure> 
   </div>
 </div>
@@ -40,8 +40,7 @@ For the advanced track, Daniel Sank talked about how to optimize the design of r
 <div style="width:100%;">
   <div style="">
     <figure>
-      ![](/images/2025QDW/Adv_Day1.jpg)
-      <figcaption>Quantum Device Workshop Organizer Cody Fan helps Professor Devoret do a quick A/V check before his advanced track talk.</figcaption>
+      ![Quantum Device Workshop Organizer Cody Fan helps Professor Devoret do a quick A/V check before his advanced track talk.](/images/2025QDW/Adv_Day1.jpg)
     </figure> 
   </div>
 </div>
@@ -51,8 +50,7 @@ After concluding the first day of workshop sessions and talks, many attendees we
 <div style="width:100%;">
   <div style="">
     <figure>
-      ![](/images/2025QDW/Quantum_Beers.jpg)
-      <figcaption>Zlatko Minev takes a selfie during a busy Quantum Beers social! </figcaption>
+      ![Zlatko Minev takes a selfie during a busy Quantum Beers social!](/images/2025QDW/Quantum_Beers.jpg)
     </figure> 
   </div>
 </div>
@@ -63,8 +61,7 @@ On Tuesday, the beginner track kicked things off with a 3 part workshop from the
 <div style="width:100%;">
   <div style="">
     <figure>
-      ![](/images/2025QDW/Beg_Day2.jpg)
-      <figcaption>Quantum Device Workshop Attendees hard at work! </figcaption>
+      ![Quantum Device Workshop Attendees hard at work!](/images/2025QDW/Beg_Day2.jpg)
     </figure> 
   </div>
 </div>
@@ -76,8 +73,7 @@ During lunch, we also hosted an industry networking session where companies like
 <div style="width:100%;">
   <div style="">
     <figure>
-      ![](/images/2025QDW/Keysight.jpg)
-      <figcaption>Mani Peroomal and Gabe Lenetsky from Keysight explaining their microwave control system and design tools to attendees.</figcaption>
+      ![Mani Peroomal and Gabe Lenetsky from Keysight explaining their microwave control system and design tools to attendees.](/images/2025QDW/Keysight.jpg)
     </figure> 
   </div>
 </div>
@@ -85,8 +81,7 @@ During lunch, we also hosted an industry networking session where companies like
 <div style="width:100%;">
   <div style="">
     <figure>
-      ![](/images/2025QDW/ZurichInst.jpg)
-      <figcaption>Taekwan Yoon from Zurich Instruments explaining their microwave control system and design tools to attendees.</figcaption>
+      ![Taekwan Yoon from Zurich Instruments explaining their microwave control system and design tools to attendees.](/images/2025QDW/ZurichInst.jpg)
     </figure> 
   </div>
 </div>
@@ -99,8 +94,7 @@ The advanced track started things off with Arpit Arora from UCLA who gave a talk
 <div style="width:100%;">
   <div style="">
     <figure>
-      ![](/images/2025QDW/Adv_Day3.jpg)
-      <figcaption>Lukas Pahl from MIT gives a talk on designing superconducting devices for quantum low density parity check codes. </figcaption>
+      ![Lukas Pahl from MIT gives a talk on designing superconducting devices for quantum low density parity check codes.](/images/2025QDW/Adv_Day3.jpg)
     </figure> 
   </div>
 </div>
@@ -111,8 +105,7 @@ For day 4, the beginner and advanced track was combined. To kick things off, Jin
 <div class="split left">
   <div style="centered">
     <figure>
-      ![](/images/2025QDW/Panel1.jpg)
-      <figcaption>Quantum Computing Student Association President Alex Jurgens gives opening remarks before the panel and reception.</figcaption>
+      ![Quantum Computing Student Association President Alex Jurgens gives opening remarks before the panel and reception.](/images/2025QDW/Panel1.jpg)
     </figure> 
   </div>
 </div>
@@ -120,8 +113,7 @@ For day 4, the beginner and advanced track was combined. To kick things off, Jin
 <div class="split right">
   <div style="centered">
     <figure>
-      ![](/images/2025QDW/Panel2.jpg)
-      <figcaption>Quantum Computing Student Association President Nicolas Dirnegger introduces the panelists to the audience before the panel.</figcaption>
+      ![Quantum Device Workshop Organizer Nicolas Dirnegger introduces the panelists to the audience before the panel.](/images/2025QDW/Panel2.jpg)
     </figure> 
   </div>
 </div>
@@ -129,8 +121,7 @@ For day 4, the beginner and advanced track was combined. To kick things off, Jin
 <div style="width:100%;">
   <div style="">
     <figure>
-      ![](/images/2025QDW/Panel3.jpg)
-      <figcaption> All smiles among the panelists! </figcaption>
+      ![All smiles among the panelists!](/images/2025QDW/Panel3.jpg)
     </figure> 
   </div>
 </div>
@@ -138,8 +129,7 @@ For day 4, the beginner and advanced track was combined. To kick things off, Jin
 <div style="width:100%;">
   <div style="">
     <figure>
-      ![](/images/2025QDW/Reception.jpg)
-      <figcaption> Intriguing discussions at the reception. </figcaption>
+      ![Intriguing discussions at the reception.](/images/2025QDW/Reception.jpg)
     </figure> 
   </div>
 </div>
@@ -223,8 +213,7 @@ Overall, it was a successful event, and we will do it again next year! We were e
 <div style="width:100%;">
   <div style="">
     <figure>
-      ![](/images/2025QDW/Finale.jpg)
-      <figcaption> From all of the speakers and organizers, we wish you long coherence times and fast two qubit gate times in your designs! See you next year!!</figcaption>
+      ![From all of the speakers and organizers, we wish you long coherence times and fast two qubit gate times in your designs! See you next year!!](/images/2025QDW/Finale.jpg)
     </figure> 
   </div>
 </div>
