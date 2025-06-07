@@ -1,7 +1,7 @@
 ---
 title: Inaugural Quantum Device Workshop!
 author: Quantum Computing Student Association
-day: 3
+day: 6
 month: 6
 year: 2025
 tags: 
@@ -13,8 +13,8 @@ tags:
 
 This year, the Quantum Computing Student Association at UCLA hosted the inaugural Quantum Device Workshop! The workshop aimed to teach quantum device design to beginners and provide an enviroment for the exchange of knowledge between experts in the field. We hosted a beginner and an advanced track for the workshop and more than 400 people were present at the event, with over 100 people in-person and over 300 people online. Indeed, it was a packed house! 
 
-      ::image[vlaliy0b9zz2vzoyqnym]
-      Quantum Device Workshop Group Photo!
+::image[vlaliy0b9zz2vzoyqnym]
+Quantum Device Workshop Group Photo!
  
 
 So what exactly occured at this workshop? Call us DJ Enzyme cuz we will be breaking it down day by day. 
@@ -25,103 +25,34 @@ The first day started off with attendees checking in and grabbing breakfast, fol
 
 
 For the advanced track, Daniel Sank talked about how to optimize the design of readout resonators for superconducting qubits, issues with scaling up dispersive readout, and designing alternatives for dispersive readout that could be more scalable. This was followed by a workshop session by Ofer Naaman from Google on how to use Keysight ADS to design a Snake Parametric Amplifier. After Ofer's workshop, the advanced track had lunch. After lunch, we resumed with Professor Andreas Wallraff's talk about how to implement a surface code on superconducting quantum devices. During the talk, he also showed a image of a GDS file of chip designed for surface codes and allowed the participants to ask questions about the different circuit elements on the chip, which was very useful for the audience as these images are rarely shared in actual publications. After this, Professor Devoret taught the advanced track participants about constructing Hamiltonians and Lagrangians from a circuit diagram following a second quantization framework. To cap off the day for the advanced track, Zlatko Minev did a deep dive into the backend behind PyEPR and Qiskit Metal and discussed a little bit on optimal meshing conditions for electromagnetic simulation of superconducting qubit devices. 
-
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ![Quantum Device Workshop Organizer Cody Fan helps Professor Devoret do a quick A/V check before his advanced track talk.](/images/2025QDW/Adv_Day1.jpg)
-    </figure> 
-  </div>
-</div>
 
 After concluding the first day of workshop sessions and talks, many attendees went out to Santa Monica Brew Works for a Los Angeles Quantum Beers social with representatives from many companies present, such as HRL, Google Quantum AI, AWS Quantum, Phasecraft, and etc.
-
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ![Zlatko Minev takes a selfie during a busy Quantum Beers social!](/images/2025QDW/Quantum_Beers.jpg)
-    </figure> 
-  </div>
-</div>
+
 
 ## Day 2 
 On Tuesday, the beginner track kicked things off with a 3 part workshop from the David and Lukas Pahl (who we affectionately refer to as the Pahl brothers) from MIT who discussed the ABCD matrix formalism for designing quantum circuits. This was followed by lunch, after which Professor Jens Koch taught the beginners track participants how to use the open source SCqubits package, which models cQED systems and superconducting quantum devices. To cap off the day for the beginners track, Murat can Sarihan from Google led a two hour workshop on electromagnetic simulation, EPR, and LOM analysis of superconducting devices. 
-
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ![Quantum Device Workshop Attendees hard at work!](/images/2025QDW/Beg_Day2.jpg)
-    </figure> 
-  </div>
-</div>
 
 For the advanced track, Professor Jens Koch kicked the day off with an advanced tutorial of modeling cQED systems with the open source sccQubits and qFit packages. Then Professor Eli Levenson-Falk discussed how to optmially teach design to students in a way that is scalable. Then the advanced track took a break for lunch. After lunch, Sadman Ahmed Shanto (whom we typically just refer to as Shanto) from USC led a workshop on advanced features and the backend of the open source SQuAADS package, which uses machine learning to generate a GDS file or chip design from a given cQED Hamiltonian. This was followed by a breakout session on formalizing cQED and quantum device design education, namely how do we make an interactive textbook and set aside dedicated lab equipment for an open source educational ecosystem for cQED and superconducting qubits. 
 
 During lunch, we also hosted an industry networking session where companies like Keysight, Zurich Instruments, and Quantum Machines had table top demos or brochures about their microwave control system interfaces and design tools for quantum computers that attendees could walk around and see. This same session was hosted during lunch on day 3 as well. 
-
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ![Mani Peroomal and Gabe Lenetsky from Keysight explaining their microwave control system and design tools to attendees.](/images/2025QDW/Keysight.jpg)
-    </figure> 
-  </div>
-</div>
-
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ![Taekwan Yoon from Zurich Instruments explaining their microwave control system and design tools to attendees.](/images/2025QDW/ZurichInst.jpg)
-    </figure> 
-  </div>
-</div>
 
 ## Day 3 
 On Wednesday, the beginner track kicked things off with a tutorial from Shanto about how to use SQuAADs to generate circuit layouts and best practices for accurate electromagnetic simulation of quantum devices such as best practices for meshing, convergence criteria, and DRC rules. This was followed by a talk by Professor Hakan Tureci on his open source package, DEC-QED that can take into account flux quantization, kinetic inductance, and penetration depth. After that, the beginner session took a break for lunch. After lunch, Loren Alegria from Lawrence Livermore National Laboratory gave a talk about designing superconducting qubits with material science considerations and using large language models to design qubits. Finally, the day was capped off with Ben Jarvis-Frain from Rigetti Computing who gave a talk on designing large-scale quantum devices and accounting for cross talk, flip chip architectures, and other 3D architectures. 
 
 The advanced track started things off with Arpit Arora from UCLA who gave a talk on designing superconducting diodes and nonreciprocal quantum circuits. This was followed by a workshop on running microwave simulations on a large scale quantum device in a scalable way and how to simulate 3D and flip chip integrated quantum circuits. After this, the advanced track had lunch. After lunch, Dung Pham from Princeton gave a talk about DEC-QEC and modeling open quantum systems and nonlinear phenomena in superconducting circuits. The last talk of the day was given by the Pahl brothers who discussed quantum device architecture for qLDPC codes in superconducting qubits. Finally the day was ended with a breakout session where the advanced track participants discussed open source design software maintnence and feature additions. During this time, a group dedicated to software maintnence was also formed. The discord link to join this group is [here](https://discord.gg/9yYmbDPH)
-
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ![Lukas Pahl from MIT gives a talk on designing superconducting devices for quantum low density parity check codes.](/images/2025QDW/Adv_Day3.jpg)
-    </figure> 
-  </div>
-</div>
 
 ## Day 4 
 For day 4, the beginner and advanced track was combined. To kick things off, Jin Sung Kim from Nvidia gave a workshop on how to use CUDA-Q for fast quantum simulations of the Jaynes-Cummings Hamiltonian and the Landau-Zener effect. After this, the participants had lunch. The day and the workshop was capped off by the panel event and reception, where Andrew Bestwick (senior VP of quantum systems at Rigetti Computing), Professors Andreas Wallraff, Michel Devoret, Eli Levenson-Falk, and Jens Koch discussed the future of designing quantum devices and scaling up superconducting qubits. This panel was moderated by Zlatko Minev. 
-
-<div class="split left">
-  <div style="centered">
-    <figure>
       ![Quantum Computing Student Association President Alex Jurgens gives opening remarks before the panel and reception.](/images/2025QDW/Panel1.jpg)
-    </figure> 
-  </div>
-</div>
-
-<div class="split right">
-  <div style="centered">
-    <figure>
       ![Quantum Device Workshop Organizer Nicolas Dirnegger introduces the panelists to the audience before the panel.](/images/2025QDW/Panel2.jpg)
-    </figure> 
-  </div>
-</div>
-
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ![All smiles among the panelists!](/images/2025QDW/Panel3.jpg)
-    </figure> 
-  </div>
-</div>
-
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ![Intriguing discussions at the reception.](/images/2025QDW/Reception.jpg)
-    </figure> 
-  </div>
-</div>
 
 ## What we learned 📚
 
@@ -198,13 +129,7 @@ There are a few improvements that we want to make to the workshop so that it is 
 ## Final Thoughts 💭
 
 Overall, it was a successful event, and we will do it again next year! We were excited to see all the enthusiasm from the community towards designing scalable quantum devices and hope people continue to be very enthusiastic to design more devices and learn more. We also hope that this workshop will bring more people to help maintain open source quantum hardware design tools and create more accessible educational content! Please join the [Discord](https://discord.gg/9yYmbDPH) for open source quantum hardware design tools and accessible quantum hardware education if you haven't already. We have already started to organize next year's iteration for the quantum device workshop, and the link to pre-register is [here](https://qdw-ucla.squarespace.com/qdw2026)!
-
-<div style="width:100%;">
-  <div style="">
-    <figure>
       ![From all of the speakers and organizers, we wish you long coherence times and fast two qubit gate times in your designs! See you next year!!](/images/2025QDW/Finale.jpg)
-    </figure> 
-  </div>
-</div>
+
 
 
